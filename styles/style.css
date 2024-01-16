@@ -91,6 +91,7 @@ section{
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
+    padding: 0px 16px;
 }
 .banner .banner-text p{
     color: #FFF;
@@ -98,7 +99,7 @@ section{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    padding: 18px 10px 48px;
+    padding: 18px 16px 48px;
 }
 .banner .banner-input{
 
@@ -337,9 +338,8 @@ padding: 16px 43px 24px 0px;
 .news .save .travel-com{
     position: absolute;
     text-align: center;
-    width: 100%;
-    max-width: 280px;
-    max-height: 120px;
+    width: 280px;
+    height: 80px;
     transform: rotate(-19.628deg);
     border-radius: 16px;
     background: #FF5400;
@@ -452,7 +452,7 @@ footer .footer .footer-logo .rights p{
     font-weight: 300;
     padding:50px 0px 110px;
 }
-@media (max-width: 600px){
+@media screen and (max-width: 600px){
     header .navbar .logo{
         padding-right: 8px;
     }
@@ -496,8 +496,21 @@ footer .footer .footer-logo .rights p{
     .news{
         flex-direction: column;
     }
+    .news .save{
+        height: auto;
+    }
+    .news .save .travel-com{
+        width: auto;
+        height: auto;
+    }
+    .news .save .travel-com p{
+        font-size: 16px;
+    }
+    .news .save .travel-com h4{
+        font-size: 20px;
+    }
 }
-@media (min-width: 600px) and (max-width:992px){
+@media screen and (min-width: 600px) and (max-width:992px){
     .navbar .nav-links .menu{
         display: none;
     }
@@ -527,20 +540,9 @@ footer .footer .footer-logo .rights p{
     }
     .choose .card{
         flex-direction: column;
+        align-items: center;
     }
     .news{
         flex-direction: column;
     }
-
-
-
-
-
-
-
-
-
-
-
-
 }
