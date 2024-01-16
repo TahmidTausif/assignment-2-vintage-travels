@@ -36,9 +36,6 @@ header .navbar{
 .navbar .logo h2 a span{
     color: #FF5400;
 }
-.navbar .logo h2 a{
-    color: #FF5400;
-}
 .navbar .nav-links .menu{
     display: flex;
     gap: 2.5em;
@@ -52,6 +49,9 @@ header .navbar{
     text-align: center;
     font-size: 18px;
     font-weight: 400;
+}
+.navbar .nav-links .menu .active{
+    color: #FF5400;
 }
 .navbar .nav-links .menu li a:hover{
     color: #FF5400;
