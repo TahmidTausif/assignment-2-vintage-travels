@@ -36,6 +36,9 @@ header .navbar{
 .navbar .logo h2 a span{
     color: #FF5400;
 }
+.navbar .logo h2 a{
+    color: #FF5400;
+}
 .navbar .nav-links .menu{
     display: flex;
     gap: 2.5em;
@@ -95,7 +98,7 @@ section{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-    padding: 18px 0px 48px;
+    padding: 18px 10px 48px;
 }
 .banner .banner-input{
 
@@ -108,7 +111,7 @@ section{
     gap: 24px;
 }
 .banner .banner-input .form-control{
-    max-width: 174px;
+    width: 174px;
     height: 52px;
     border-radius: 8px;
     background: #FFF;
@@ -118,7 +121,7 @@ section{
     padding: 16px 15px;
 }
 .banner .banner-input button{
-    max-width: 174px;
+    width: 174px;
     height: 52px;
     border-radius: 8px;
     background: #FF5400;
@@ -139,6 +142,7 @@ section{
 .popular .popular-text{
     text-align: left;
     padding-right: 50px;
+    padding-bottom: 40px;
 }
 .popular .popular-text h2{
     color: #131318;
@@ -200,10 +204,10 @@ section{
     padding: 28px 0px 48px;
 }
 .destination .row{
-    max-height: 300px;
+    height: 300px;
     display: flex;
     gap: 24px;
-    padding-bottom: 24px;
+    margin-bottom: 24px;
 }
 .destination .row .img{
     position: relative;
@@ -371,6 +375,7 @@ padding: 16px 43px 24px 0px;
     display: flex;
 }
 .discover .discover-icon .stay-row{
+    padding-bottom: 24px;
     flex: 1;
     display: flex;
     justify-content: space-around;
@@ -393,4 +398,149 @@ padding: 16px 43px 24px 0px;
     color: #131318;
     font-size: 24px;
     font-weight: 800;
+}
+footer{
+
+    background: rgba(19, 19, 24, 0.05);
+}
+footer .footer{
+    margin-bottom: 0px;
+    padding-top: 100px;
+    text-align: center;
+}
+footer .footer .footer-logo .logo{
+    display: flex;
+    padding-right: 16px;
+    justify-content: center;
+    align-items: center;
+}
+footer .footer .footer-logo .logo img{
+    width: 40px;
+    height: 46.673px;
+    padding-right: 16px;
+}
+footer .footer .footer-logo .logo h2 a{
+    color: #131318;
+    font-size: 32px;
+    font-weight: 800;
+}
+footer .footer .footer-logo .logo h2 a span{
+    color: #FF5400;
+}
+footer .footer .footer-logo p{
+    color: #5A5A5D;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; 
+    padding: 15px 0px;
+}
+footer .footer .footer-logo .social{
+    padding: 18px 0px 50px;
+}
+footer .footer .footer-logo .social a{
+    padding-right: 30px;
+}
+footer .footer .footer-logo .social a img{
+    height: 24px;
+}
+footer .footer .footer-logo .rights{
+    border-top: 1px solid rgba(19, 19, 24, 0.10);
+}
+footer .footer .footer-logo .rights p{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    padding:50px 0px 110px;
+}
+@media (max-width: 600px){
+    header .navbar .logo{
+        padding-right: 8px;
+    }
+    header .navbar .logo img{
+        width: 28.724px;
+        height: 33.516px;
+    }
+    header .navbar .logo h2 a{
+        font-size: 21.543px;
+    }
+    header .navbar .nav-links .menu{
+        display: none;
+    }
+    header .navbar .nav-links .hamburger{
+        color: #131318;
+        display: block;
+        font-size: 32px;
+    }
+    .banner .banner-input{
+        flex-direction: column;
+    }
+    .banner .banner-input .form-control{
+        width: 255px;
+    }
+    .banner .banner-input button{
+        width: 255px;
+    }
+    .popular{
+        flex-direction: column;
+    }
+    .discover .discover-icon{
+        flex-direction: column;
+    }
+    .destination .row{
+        height: auto;
+        flex-direction: column;
+    }
+    .choose .card{
+        flex-direction: column;
+    }
+    .news{
+        flex-direction: column;
+    }
+}
+@media (min-width: 600px) and (max-width:992px){
+    .navbar .nav-links .menu{
+        display: none;
+    }
+    header .navbar .nav-links .hamburger{
+        color: #131318;
+        display: block;
+        font-size: 48px;
+    }
+    .banner .banner-input{
+        flex-direction: column;
+    }
+    .banner .banner-input .form-control{
+        width: 255px;
+    }
+    .banner .banner-input button{
+        width: 255px;
+    }
+    .popular{
+        flex-direction: column;
+    }
+    .discover .discover-icon{
+        flex-direction: column;
+    }
+    .destination .row{
+        height: auto;
+        flex-direction: column;
+    }
+    .choose .card{
+        flex-direction: column;
+    }
+    .news{
+        flex-direction: column;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
 }
