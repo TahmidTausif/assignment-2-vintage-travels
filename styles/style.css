@@ -135,7 +135,13 @@ section{
     border: 2px solid #FF5400;
     padding: 15px 15px;
 }
-
+.banner .banner-input button:hover{
+    background-color: #FFF;
+    color: #FF5400;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
 
 .popular{
     display: flex;
@@ -181,10 +187,57 @@ section{
     border: 2px solid #FF5400;
     padding: 14px 34px;
 }
+.popular .popular-text button:hover{
+    background-color: #FFF;
+    color: #FF5400;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
 .popular img{
     width: 100%;
     max-width: 540px;
     max-height: 550px;
+}
+.discover{
+    padding: 40px 0px;
+}
+.discover .discover-text{
+    text-align: center;
+    padding: 44px 0px;
+}
+.discover .discover-text h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+}
+.discover-icon{
+    display: flex;
+}
+.discover .discover-icon .stay-row{
+    padding-bottom: 24px;
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+}
+.discover .discover-icon .stay{
+    padding: 14px 16px;
+    text-align: center;
+}
+.discover .discover-icon .stay:hover{
+    transform: scale(0.9);
+    transition: transform 0.6s ease;
+    overflow: hidden !important; 
+}
+.discover .discover-icon .stay img{
+    max-width: 64px;
+    padding-bottom: 16px;
+    filter: opacity(0.8) drop-shadow(0 0 0 #131318);
+}
+.discover .discover-icon .stay h4{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
 }
 .destination{
     padding-top: 50px;
@@ -277,6 +330,77 @@ section{
 .choose .choose-card-2{
     justify-content: center;
 }
+.place{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+.place .place-text{
+    max-width: 500px;
+    text-align: left;
+    padding-right: 30px;
+    padding-bottom: 40px;
+}
+.place .place-text h2{
+    color: #131318;
+    font-size: 34px;
+    font-weight: 800;
+}
+.place .place-text p{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding: 16px 0px; /* 162.5% */
+}
+.place .place-text ul{
+    padding-left: 1.5em;
+    padding-bottom: 18px;
+}
+.place .place-text li{
+    color: #131318;
+    font-size: 16px;
+    font-weight: 800;
+    line-height: 26px; 
+    padding: .5em 0em;
+}
+.place .place-text button{
+    max-width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    border: 2px solid #FF5400;
+    padding: 14px 34px;
+}
+.place .place-text button:hover{
+    background-color: #FFF;
+    color: #FF5400;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
+.place .video{
+    position: relative;
+}
+.place .video h4{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFF;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+}
+.place .video video{
+    width: 100%;
+    max-width: 640px;
+    border-radius: 16px;
+}
 .news{
     display: flex;
     gap: 24px;
@@ -329,7 +453,13 @@ padding: 16px 43px 24px 0px;
     border: 1px solid #FF5400;
     padding: 14px 0px;
 }
-
+.news .newsletter form button:hover{
+    background-color: #FFF;
+    color: #FF5400;
+    font-weight: 800;
+    cursor: pointer;
+    transition: transform 0.6s ease;
+}
 .news .save{
     height: 422px;
     position: relative;
@@ -362,46 +492,7 @@ padding: 16px 43px 24px 0px;
     font-size: 32px;
     font-weight: 800;
 }
-.discover{
-    padding: 40px 0px;
-}
-.discover .discover-text{
-    text-align: center;
-    padding: 44px 0px;
-}
-.discover .discover-text h2{
-    color: #131318;
-    font-size: 40px;
-    font-weight: 800;
-}
-.discover-icon{
-    display: flex;
-}
-.discover .discover-icon .stay-row{
-    padding-bottom: 24px;
-    flex: 1;
-    display: flex;
-    justify-content: space-around;
-}
-.discover .discover-icon .stay{
-    padding: 14px 16px;
-    text-align: center;
-}
-.discover .discover-icon .stay:hover{
-    transform: scale(0.9);
-    transition: transform 0.6s ease;
-    overflow: hidden !important; 
-}
-.discover .discover-icon .stay img{
-    max-width: 64px;
-    padding-bottom: 16px;
-    filter: opacity(0.8) drop-shadow(0 0 0 #131318);
-}
-.discover .discover-icon .stay h4{
-    color: #131318;
-    font-size: 24px;
-    font-weight: 800;
-}
+
 footer{
 
     background: rgba(19, 19, 24, 0.05);
@@ -510,6 +601,18 @@ footer .footer .footer-logo .rights p{
     .choose .card{
         flex-direction: column;
     }
+    .place{
+        flex-direction: column;
+    }
+    .place .place-text h2{
+        font-size: 28px;
+    }
+    .place .place-text p{
+        font-size: 14px;
+    }
+    .place .place-text li{
+        font-size: 14px;
+    }
     .news{
         flex-direction: column;
     }
@@ -573,6 +676,9 @@ footer .footer .footer-logo .rights p{
     .choose .card{
         flex-direction: column;
         align-items: center;
+    }
+    .place{
+        flex-direction: column;
     }
     .news{
         flex-direction: column;
