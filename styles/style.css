@@ -596,6 +596,11 @@ footer .footer .footer-logo .rights p{
     .discover .stay-row .stay h4{
         font-size: 18px;
     }
+    .discover .discover-icon .stay:hover{
+        transform: scale(0.98);
+        transition: transform 0.6s ease;
+        overflow: hidden !important; 
+    }
     .destination .row{
         height: auto;
         flex-direction: column;
