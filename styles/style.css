@@ -590,6 +590,12 @@ footer .footer .footer-logo .rights p{
     .discover .discover-icon{
         flex-direction: column;
     }
+    .discover .destination-text h2{
+        font-size: 28px;
+    }
+    .discover .stay-row .stay h4{
+        font-size: 18px;
+    }
     .destination .row{
         height: auto;
         flex-direction: column;
@@ -598,8 +604,26 @@ footer .footer .footer-logo .rights p{
         height: 176px;
         width: auto;
     }
+    .destination .destination-text h2{
+        font-size: 28px;
+    }
+    .destination .destination-text p{
+        font-size: 14px;
+    }
+    .destination .row .img h4{
+        font-size: 20px;
+    }
     .choose .card{
         flex-direction: column;
+    }
+    .choose .card .card-item p{
+        font-size: 14px;
+    }
+    .choose .choose-text h2{
+        font-size: 28px;
+    }
+    .choose .choose-text p{
+        font-size: 14px;
     }
     .place{
         flex-direction: column;
@@ -613,8 +637,20 @@ footer .footer .footer-logo .rights p{
     .place .place-text li{
         font-size: 14px;
     }
+    .place .video h4{
+        font-size: 20px;
+    }
     .news{
         flex-direction: column;
+    }
+    .news .newsletter h3{
+        font-size: 28px;
+    }
+    .news .newsletter p{
+        font-size: 14px;
+    }
+    .news .newsletter form input{
+        font-size: 14px;
     }
     .news .save{
         height: auto;
@@ -665,6 +701,12 @@ footer .footer .footer-logo .rights p{
     .discover .discover-icon{
         flex-direction: column;
     }
+    .discover .destination-text h2{
+        font-size: 38px;
+    }
+    .discover .stay-row .stay h4{
+        font-size: 20px;
+    }
     .destination .row{
         height: auto;
         flex-direction: column;
@@ -673,14 +715,48 @@ footer .footer .footer-logo .rights p{
         height: 300px;
         width: auto;
     }
+    .destination .destination-text h2{
+        font-size: 34px;
+    }
+    .destination .destination-text p{
+        font-size: 16px;
+    }
     .choose .card{
         flex-direction: column;
         align-items: center;
     }
+    .choose .card .card-item p{
+        font-size: 16px;
+    }
+    .c
+    .choose .choose-text h2{
+        font-size: 38px;
+    }
+    .choose .choose-text p{
+        font-size: 16px;
+    }
     .place{
         flex-direction: column;
     }
+    .place .place-text h2{
+        font-size: 38px;
+    }
+    .place .place-text p{
+        font-size: 16px;
+    }
+    .place .place-text li{
+        font-size: 16px;
+    }
     .news{
         flex-direction: column;
+    }
+    .news .newsletter h3{
+        font-size: 38px;
+    }
+    .news .newsletter p{
+        font-size: 16px;
+    }
+    .news .newsletter form input{
+        font-size: 16px;
     }
 }
