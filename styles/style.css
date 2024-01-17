@@ -120,6 +120,8 @@ section{
     font-size: 16px;
     font-weight: 400;
     padding: 16px 15px;
+    border: none;
+    border-right: 10px solid transparent
 }
 .banner .banner-input button{
     width: 174px;
@@ -228,6 +230,7 @@ section{
     font-weight: 800;
 }
 .choose .choose-text{
+    padding-top: 50px;
     text-align: center;
 }
 .choose .choose-text h2{
@@ -471,6 +474,16 @@ footer .footer .footer-logo .rights p{
         display: block;
         font-size: 32px;
     }
+    .banner{
+        padding: 32px 15px;
+    }
+    .banner .banner-text h1{
+        font-size: 28px;
+    }
+    .banner .banner-text p{
+        font-size: 14px;
+        padding-bottom: 32px;
+    }
     .banner .banner-input{
         flex-direction: column;
     }
@@ -490,6 +503,10 @@ footer .footer .footer-logo .rights p{
         height: auto;
         flex-direction: column;
     }
+    .destination .row .img{
+        height: 176px;
+        width: auto;
+    }
     .choose .card{
         flex-direction: column;
     }
@@ -502,6 +519,7 @@ footer .footer .footer-logo .rights p{
     .news .save .travel-com{
         width: auto;
         height: auto;
+        top: 46%;
     }
     .news .save .travel-com p{
         font-size: 16px;
@@ -519,6 +537,16 @@ footer .footer .footer-logo .rights p{
         display: block;
         font-size: 48px;
     }
+    .banner{
+        padding: 80px 20px;
+    }
+    .banner .banner-text h1{
+        font-size: 38px;
+    }
+    .banner .banner-text p{
+        font-size: 16px;
+        padding: 18px 24px 40px;
+    }
     .banner .banner-input{
         flex-direction: column;
     }
@@ -537,6 +565,10 @@ footer .footer .footer-logo .rights p{
     .destination .row{
         height: auto;
         flex-direction: column;
+    }
+    .destination .row .img{
+        height: 300px;
+        width: auto;
     }
     .choose .card{
         flex-direction: column;
